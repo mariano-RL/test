@@ -1,14 +1,22 @@
+
+
+
+
 titulo
 {
     
-    font-size: 70;
+    font-size: 27;
+    color:blue;
     font-weight:bolder;
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    border:#1a9a70
 
     
 }
+#apartado1{border:3px solid brown;
+  border-radius:22px;
+  }
 #Descripcion{text-align:left;
   flex: 250px;
   flex-wrap: wrap;
@@ -19,16 +27,21 @@ titulo
 
   padding: 5px;
   flex-wrap: wrap;
+  border-width: 5px;
+  border-color: black;
 }
 
 .column{
   flex: 25%;
   padding: 55px;
+  border-width: 5px;
+  border-color: black;
 }
 }
-#historia{text-align:right;
-  flex: 250px;
+historia{text-align:left;
+  flex: 50px;
   flex-wrap: wrap;
+  font-size: 15px;
 
 
 
@@ -43,6 +56,16 @@ titulo
   padding: 55px;
 }
 }
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card .content {
+  flex: 1 1 auto;
+}
     
     
 titulo2 {
@@ -52,7 +75,7 @@ titulo2 {
   .text {
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 700px;
+    font-size: 150;
     background-image: linear-gradient(indigo, hotpink);
     color: white;
   }
@@ -65,9 +88,10 @@ personaje{
     font-size: 18;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color:rgb(238, 8, 8);
+    color:rgb(8, 58, 238);
+    
+    
 
 
 
-
-}
+} 
